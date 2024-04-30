@@ -1,3 +1,7 @@
+.underline{
+    text-decoration: underline;
+}
+
 #categoryContainer
 {
     display:flex;

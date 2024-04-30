@@ -151,3 +151,38 @@ a{
 .vegetablesCategoryItemsBackground{
     background-color: rgb(244, 223, 244);
 }
+
+
+/* Deal of the day.............................................................. */
+
+.exclusive{
+    background-color: purple;
+    color:white;
+    height:20vh;
+    margin-top: 3vh;
+}
+
+.exclusiveText{
+   font-size: 7vh;
+   padding:5vh;
+   animation-name: exclusiveAnimation;
+   animation-duration:7s;
+   animation-iteration-count: infinite;
+   display: inline-block;
+}
+
+@keyframes exclusiveAnimation{
+   50%{
+    translate: 5vw 0vw;
+   }
+   50%{
+    translate: 10vw 0vw;
+   }
+}
+
+.dealText{
+    font-size: 4vh;
+    color:white;
+    display: inline-block;
+    padding-left:15vw;
+}
