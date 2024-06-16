@@ -45,6 +45,7 @@
    background-color: aqua;
 } */
 
+
 #brandLogo{
     position:relative;
     height:15vh;
@@ -87,6 +88,23 @@
     width:4vh;
     left: 83vw;
     top:7vh;
+}
+
+/* Navbar Categories .....................................................................*/
+
+.navbarGategories{
+    overflow: hidden;
+    position:absolute;
+    margin:10px 0px;
+
+}
+
+.navbarGategories a{
+    float:unset;
+    text-decoration:none;
+    padding:0px 50px;
+    margin:0px 50px;
+    text-align: center;
 }
 
 /* explore categories.................................... */
