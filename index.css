@@ -98,10 +98,11 @@
     margin:0px 280px;
     /* padding: 0px 180px; */
     background-color: bisque;
+    width:90vw;
 }
 
 .navbarGategories a{
-    /* float:unset; */
+    float:left;
     text-decoration:none;
     padding:0px 20px;
     /* margin:0px 20px; */
@@ -109,6 +110,25 @@
     color:black;
     font-size: 20px;
     font-weight:600;
+}
+
+.navbarGategory{
+   display: flex;
+   width:97.8vw;
+   height:4vh;
+   border:1px solid;
+   flex-direction: row;
+
+}
+.navbarGategoryInsidebox {
+    display: flex;
+    justify-content:center;
+}
+.navbarGategory a{
+    padding:4px 10px;
+    justify-content:center;
+    
+
 }
 
 /* explore categories.................................... */
