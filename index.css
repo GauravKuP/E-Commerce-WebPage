@@ -29,7 +29,7 @@
     to{fontsize:7vh};
 }
 
-/* Navbar................................................................................ */
+/* 1st Navbar................................................................................ */
 
 /* #navbarContainer{
     position:fixed;
@@ -93,6 +93,7 @@
 /* Navbar Categories .....................................................................*/
 
 .navbarGategory{
+/* margin: 3vh; */
    display: flex;
    width:97.8vw;
    height:4vh;
@@ -106,14 +107,43 @@
     display: flex;
     justify-content:center;
     align-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; it makes the navbar items to come out of box. Don't use it*/
     flex-direction: row;
     gap:3vw;
+    margin-top: -10px;
 }
 .navbarGategory a{
     font-size: 20px;
     font-weight:600;
 }
+
+/* Navigation gategories menu ......................................*/
+
+.navLI{
+    display: none;
+    list-style-type: none;
+    /* cursor:pointer; */
+    position:relative;
+}
+.navUL:hover .navLI{
+    display: block;
+    border:1px solid;
+    background-color:whitesmoke;
+    padding: 4px 4px;
+    cursor:pointer;
+}
+.navUL:hover .navLI:hover{
+    background-color: aquamarine;
+    z-index:1 ;
+}
+ 
+
+
+
+
+
+
+
 
 /* explore categories.................................... */
 
