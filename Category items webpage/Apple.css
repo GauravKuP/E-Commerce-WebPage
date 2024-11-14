@@ -37,8 +37,8 @@
 }
 
 .categoryImg{
-    height:35vh;
-    width:30vw;
+    height:20vh;
+    width:15vw;
 }
 
 /* Category items........................................................... */
@@ -55,4 +55,9 @@ a{
     width:20vw;
     margin:3vh;
     cursor:pointer;
+}
+
+.dealImg{
+    height:20vh;
+    width:25vw;
 }

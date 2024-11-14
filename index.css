@@ -223,6 +223,7 @@ a{
     align-content:flex-start;
     gap: 3vw;
     flex-wrap: wrap;
+    
 }
 
 .exclusiveText{
@@ -231,7 +232,7 @@ a{
    animation-name: exclusiveAnimation;
    animation-duration:7s;
    animation-iteration-count: infinite;
-   
+   cursor:pointer;
 }
 
 @keyframes exclusiveAnimation{
